@@ -43,3 +43,8 @@ Thumbs.db
 data/
 *.csv
 *.parquet
+
+# AI pipeline — datasets y modelos entrenados
+ai/pipeline/datasets/
+ai/pipeline/models/
+*.joblib

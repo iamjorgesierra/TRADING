@@ -2,6 +2,10 @@
 
 > **FASE 6** — Pendiente de implementación.
 
+Primer paso concreto en marcha: pipeline offline de predicción direccional para EUR/USD H1.
+Diseño completo en
+[`docs/superpowers/specs/2026-08-26-forex-direction-prediction-design.md`](../docs/superpowers/specs/2026-08-26-forex-direction-prediction-design.md).
+
 ## Roadmap de IA (en orden)
 
 ### Paso 1: Feature Engineering
