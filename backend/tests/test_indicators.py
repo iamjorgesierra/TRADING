@@ -17,9 +17,9 @@ import pytest
 _IND_ENGINE = Path(__file__).resolve().parents[2] / "backend" / "services" / "indicator-engine"
 sys.path.insert(0, str(_IND_ENGINE))
 
-from app.core.indicators import atr, bollinger_bands, ema, macd, rsi, vwap
-from app.core.buffer import BufferRegistry, CandleBuffer
-from app.core.calculator import IndicatorCalculator
+from indicator_app.core.indicators import atr, bollinger_bands, ema, macd, rsi, vwap
+from indicator_app.core.buffer import BufferRegistry, CandleBuffer
+from indicator_app.core.calculator import IndicatorCalculator
 
 
 # ─────────────────────────────────────────────────────────────

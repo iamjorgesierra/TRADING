@@ -23,7 +23,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # ── Código del servicio ───────────────────────────────────────
 # shared/ se copia aquí para el build; en dev se monta como volume.
 COPY shared/ ./shared/
-COPY services/market-data-service/app/ ./app/
+COPY services/market-data-service/market_data_app/ ./market_data_app/
 
 EXPOSE 8000
 

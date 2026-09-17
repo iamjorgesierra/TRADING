@@ -18,7 +18,7 @@ COPY services/session-engine/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY shared/ ./shared/
-COPY services/session-engine/app/ ./app/
+COPY services/session-engine/session_app/ ./session_app/
 
 EXPOSE 8000
 

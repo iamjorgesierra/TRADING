@@ -1,10 +1,5 @@
 # Quant Trading Platform — Dependencias de desarrollo y testing
 
-[tool.pytest.ini_options]
-testpaths = ["backend/tests"]
-asyncio_mode = "auto"
-addopts = "-v --tb=short"
-
 [tool.mypy]
 python_version = "3.12"
 strict = true

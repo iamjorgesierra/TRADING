@@ -24,3 +24,8 @@ Stack inicial:
 Decisiones iniciales:
 - Priorizar comunicación asíncrona entre servicios (Redis Streams / Kafka).
 - Mantener servicios pequeños y con responsabilidades únicas.
+
+
+## Python package namespaces
+
+Cada microservicio usa un namespace Python único (`market_data_app`, `historical_data_app`, `indicator_app`, `session_app`) para evitar colisiones del paquete genérico `app` cuando el monorepo se ejecuta y se testea desde una sola raíz.

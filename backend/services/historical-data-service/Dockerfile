@@ -18,7 +18,7 @@ COPY services/historical-data-service/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY shared/ ./shared/
-COPY services/historical-data-service/app/ ./app/
+COPY services/historical-data-service/historical_data_app/ ./historical_data_app/
 
 EXPOSE 8000
 

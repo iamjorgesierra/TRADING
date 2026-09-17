@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r services/indicator-engine/requirements.txt
 
 # Copiar shared y código del servicio
 COPY shared/ shared/
-COPY services/indicator-engine/app/ services/indicator-engine/app/
+COPY services/indicator-engine/indicator_app/ indicator_app/
 
 # Configurar PYTHONPATH para permitir imports absolutos desde /app
 ENV PYTHONPATH=/app
